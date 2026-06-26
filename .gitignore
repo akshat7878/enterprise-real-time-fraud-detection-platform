@@ -1,0 +1,65 @@
+# ------------------------
+# Python
+# ------------------------
+__pycache__/
+*.py[cod]
+
+# ------------------------
+# Virtual Environment
+# ------------------------
+.venv/
+
+# ------------------------
+# Jupyter
+# ------------------------
+.ipynb_checkpoints/
+
+# ------------------------
+# macOS
+# ------------------------
+.DS_Store
+
+# ------------------------
+# VS Code
+# ------------------------
+.vscode/
+
+# ------------------------
+# Spark
+# ------------------------
+spark-warehouse/
+
+# ------------------------
+# MLflow
+# ------------------------
+mlruns/
+
+# ------------------------
+# Logs
+# ------------------------
+*.log
+
+# ------------------------
+# Environment Variables
+# ------------------------
+.env
+
+# ------------------------
+# Processed Data
+# ------------------------
+data/bronze/*
+data/silver/*
+data/gold/*
+data/stream/*
+
+# Keep folder structure
+!data/bronze/.gitkeep
+!data/silver/.gitkeep
+!data/gold/.gitkeep
+!data/stream/.gitkeep
+
+# ------------------------
+# Trained Models
+# ------------------------
+models/*
+!models/.gitkeep

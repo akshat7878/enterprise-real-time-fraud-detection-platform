@@ -1,0 +1,4 @@
+
+# Large fraud detection datasets
+data/raw/*.csv
+kafka/producer/*.csv

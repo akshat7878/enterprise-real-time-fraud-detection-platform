@@ -63,3 +63,6 @@ data/stream/*
 # ------------------------
 models/*
 !models/.gitkeep
+# Large local fraud datasets
+data/raw/*.csv
+kafka/producer/*.csv

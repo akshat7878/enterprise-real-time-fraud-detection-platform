@@ -1,0 +1,5 @@
+pandas
+kafka-python
+joblib
+pyodbc
+dotenv
